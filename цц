@@ -1,0 +1,9 @@
+const header = document.querySelector('.header');
+
+window.addEventListener('scroll', () => {
+  if (window.scrollY > 20) {
+    header.style.boxShadow = '0 8px 28px rgba(53,50,51,.12)';
+  } else {
+    header.style.boxShadow = 'none';
+  }
+});
