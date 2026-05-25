@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>БКК-ГРУПП — строительная компания</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <header class="header">
+    <a href="#home" class="logo">
+      <img src="img/logo.jpg" alt="БКК-ГРУПП" />
+    </a>
+
+    <nav class="nav">
+      <a href="#home">Главная</a>
+      <a href="#about">О компании</a>
+      <a href="#services">Услуги</a>
+      <a href="#portfolio">Портфолио</a>
+      <a href="#calculator">Калькулятор</a>
+      <a href="#contacts">Контакты</a>
+    </nav>
+
+    <a href="#contacts" class="header-btn">Оставить заявку</a>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="hero-text">
+        <span class="label">Строительная компания</span>
+        <h1>Надёжность.<br>Основа.<br>Строим будущее.</h1>
+        <p>
+          БКК-ГРУПП выполняет монолитные, инженерные и общестроительные работы
+          для частных, коммерческих и промышленных объектов.
+        </p>
+
+        <div class="hero-actions">
+          <a href="#contacts" class="btn">Оставить заявку</a>
+          <a href="#portfolio" class="btn btn-light">Смотреть проекты</a>
+        </div>
+      </div>
+
+      <div class="hero-img">
+        <img src="img/IMG_3928.JPG" alt="Монолитные работы" />
+      </div>
+    </section>
+
+    <section class="section dark" id="about">
+      <div class="section-head">
+        <span class="label">О компании</span>
+        <h2>Инженерный подход к строительству</h2>
+      </div>
+
+      <div class="about-grid">
+        <div>
+          <p>
+            ООО «БКК-ГРУПП» — строительная компания, специализирующаяся на
+            монолитных работах, монтаже металлоконструкций, инженерных работах
+            и строительстве объектов с нуля.
+          </p>
+          <p>
+            Основной принцип компании — контроль качества на каждом этапе:
+            от подготовки площадки до сдачи объекта заказчику.
+          </p>
+        </div>
+
+        <div class="stats">
+          <div><strong>10+</strong><span>лет опыта</span></div>
+          <div><strong>150+</strong><span>реализованных задач</span></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="services">
+      <div class="section-head">
+        <span class="label">Услуги</span>
+        <h2>Основные направления</h2>
+      </div>
+
+      <div class="cards">
+        <div class="card">
+          <span class="dot"></span>
+          <h3>Монолитные работы</h3>
+          <p>Армирование, опалубка, бетонирование и устройство монолитных конструкций.</p>
+        </div>
+
+        <div class="card">
+          <span class="dot"></span>
+          <h3>Строительство с нуля</h3>
+          <p>Комплекс работ от подготовки основания до возведения объекта.</p>
+        </div>
+
+        <div class="card">
+          <span class="dot"></span>
+          <h3>Металлоконструкции</h3>
+          <p>Монтаж несущих и вспомогательных металлических конструкций.</p>
+        </div>
+
+        <div class="card">
+          <span class="dot"></span>
+          <h3>Инженерные работы</h3>
+          <p>Работы по инженерным системам, коммуникациям и технической подготовке.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section dark" id="portfolio">
+      <div class="section-head">
+        <span class="label">Портфолио</span>
+        <h2>Реализованные объекты</h2>
+      </div>
+
+      <div class="portfolio-grid">
+        <article class="project">
+          <img src="img/IMG_3914.JPG" alt="Арматурный каркас" />
+          <div>
+            <h3>Армирование основания</h3>
+            <p>Монолитные работы / промышленный объект</p>
+          </div>
+        </article>
+
+        <article class="project">
+          <img src="img/IMG_3925.JPG" alt="Бетонное основание" />
+          <div>
+            <h3>Устройство фундамента</h3>
+            <p>Бетонирование / частный объект</p>
+          </div>
+        </article>
+
+        <article class="project">
+          <img src="img/IMG_3927.JPG" alt="Строительная площадка" />
+          <div>
+            <h3>Монолитный котлован</h3>
+            <p>Подготовка и монолитные конструкции</p>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="section" id="calculator">
+      <div class="section-head">
+        <span class="label">Калькулятор</span>
+        <h2>Рассчитать проект</h2>
+      </div>
+
+      <form class="calc-form">
+        <input type="text" placeholder="Тип работ" />
+        <input type="text" placeholder="Площадь объекта, м²" />
+        <input type="text" placeholder="Регион" />
+        <textarea placeholder="Расскажите подробнее о проекте"></textarea>
+        <button type="button" class="btn">Рассчитать стоимость</button>
+      </form>
+    </section>
+
+    <section class="section contacts dark" id="contacts">
+      <div class="section-head">
+        <span class="label">Контакты</span>
+        <h2>Свяжитесь с нами</h2>
+      </div>
+
+      <div class="contacts-grid">
+        <div>
+          <p><b>Адрес:</b> 198136, г. Санкт-Петербург, пр-т Ленинский, д. 114–116, офис 27</p>
+          <p><b>E-mail:</b> bcc-group@mail.ru</p>
+          <p><b>Сайт:</b> bcc-group.tilda.ws</p>
+          <p><b>Телефон:</b> +7 (900) 640-76-44</p>
+        </div>
+
+        <form class="contact-form">
+          <input type="text" placeholder="Ваше имя" />
+          <input type="email" placeholder="E-mail" />
+          <textarea placeholder="Сообщение"></textarea>
+          <button type="button" class="btn">Отправить</button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div>
+      <img src="img/logo.jpg" alt="БКК-ГРУПП" />
+    </div>
+
+    <div>
+      <h4>Компания</h4>
+      <a href="#about">О компании</a>
+      <a href="#services">Услуги</a>
+      <a href="#portfolio">Портфолио</a>
+    </div>
+
+    <div>
+      <h4>Контакты</h4>
+      <p>bcc-group@mail.ru</p>
+      <p>+7 (900) 640-76-44</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
